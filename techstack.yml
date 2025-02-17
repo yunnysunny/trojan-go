@@ -1,0 +1,303 @@
+repo_name: yunnysunny/trojan-go
+report_id: eec790dfb504fa96cb21f397950f37fd
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:55:31+00:00'
+requested_by: Loyalsoldier
+provider: github
+branch: master
+detected_tools_count: 22
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Loyalsoldier
+  last_updated_on: 2021-08-28 05:17:18.000000000 Z
+- name: gRPC
+  description: A high performance, open-source universal RPC framework
+  website_url: https://grpc.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Remote Procedure Call (RPC)
+  image_url: https://img.stackshare.io/service/4670/default_d811b0ac72205af84aca21f967594338580be913.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: pagefault
+  last_updated_on: 2020-03-17 17:17:35.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: pagefault
+  last_updated_on: 2020-03-17 17:17:35.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/.github/workflows/docker-build.yml
+  detection_source: ".github/workflows/docker-build.yml"
+  last_updated_by: Loyalsoldier
+  last_updated_on: 2021-04-02 04:45:17.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Page Fault
+  last_updated_on: 2021-02-26 18:20:09.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go
+  detection_source: Repo Metadata
+- name: assertions
+  description: Fluent assertion-style functions used by goconvey and gunit
+  package_url: https://pkg.go.dev/github.com/smartystreets/assertions
+  version: 0.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Loyalsoldier
+  last_updated_on: 2021-08-28 05:17:18.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Loyalsoldier
+  last_updated_on: 2021-09-14 07:41:24.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: gls
+  description: Goroutine local storage
+  package_url: https://pkg.go.dev/github.com/jtolds/gls
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: pagefault
+  last_updated_on: 2020-03-17 17:17:35.000000000 Z
+- name: go-cache
+  description: An in-memory key:value store/cache
+  package_url: https://pkg.go.dev/github.com/patrickmn/go-cache
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Loyalsoldier
+  last_updated_on: 2021-08-28 05:17:18.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Loyalsoldier
+  last_updated_on: 2021-08-28 05:17:18.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Loyalsoldier
+  last_updated_on: 2021-08-28 05:17:18.000000000 Z
+- name: goconvey
+  description: Go testing in the browser
+  package_url: https://pkg.go.dev/github.com/smartystreets/goconvey
+  version: 1.6.4
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: p4gefau1t
+  last_updated_on: 2020-03-22 11:01:52.000000000 Z
+- name: gopherjs
+  description: A compiler from Go to JavaScript for running Go code in a browser
+  package_url: https://pkg.go.dev/github.com/gopherjs/gopherjs
+  version: 0.0.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Loyalsoldier
+  last_updated_on: 2021-09-14 07:41:24.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: pagefault
+  last_updated_on: 2020-03-17 17:17:35.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: Loyalsoldier
+  last_updated_on: 2021-08-28 05:17:18.000000000 Z
+- name: smux
+  description: Simple Stream Multiplexing for golang
+  package_url: https://pkg.go.dev/github.com/xtaci/smux
+  version: 1.5.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Page Fault
+  last_updated_on: 2021-01-24 11:20:15.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: pagefault
+  last_updated_on: 2020-03-17 17:17:35.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/yunnysunny/trojan-go/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Loyalsoldier
+  last_updated_on: 2021-08-28 05:17:18.000000000 Z
