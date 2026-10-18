@@ -1,43 +1,43 @@
+version: "2"
+
 run:
   timeout: 5m
-  skip-files:
-    - \.pb\.go$
-
-issues:
-  new: true
 
 linters:
+  default: none
   enable:
     - asciicheck
     - bodyclose
-    - depguard
-    - gci
     - gocritic
-    - gofmt
-    - gofumpt
-    - goimports
     - govet
     - ineffassign
     - misspell
-    - typecheck
     - unconvert
     - whitespace
-  disable:
-    - deadcode
-    - errcheck
-    - goprintffuncname
-    - gosimple
-    - nilerr
-    - rowserrcheck
-    - staticcheck
-    - structcheck
-    - stylecheck
-    - unparam
-    - unused
-    - varcheck
+  exclusions:
+    generated: lax
+    paths:
+      - \.pb\.go$
 
-linters-settings:
-  gci:
-    local-prefixes: github.com/p4gefau1t/trojan-go
-  goimports:
-    local-prefixes: github.com/p4gefau1t/trojan-go
+formatters:
+  enable:
+    - gci
+    - gofmt
+    - gofumpt
+    - goimports
+  settings:
+    gci:
+      sections:
+        - standard
+        - default
+        - prefix(github.com/p4gefau1t/trojan-go)
+    goimports:
+      local-prefixes:
+        - github.com/p4gefau1t/trojan-go
+  exclusions:
+    generated: lax
+    paths:
+      - \.pb\.go$
+
+issues:
+  new: true
